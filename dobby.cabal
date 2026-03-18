@@ -14,6 +14,9 @@ library
     Dobby
   build-depends:
     , base >= 4.18.3 && < 4.19
+    , http-client >= 0.7.19 && < 0.8
+    , http-client-tls >= 0.3.6 && < 0.4
+    , optparse-applicative >= 0.19.0 && < 0.20
 
 executable dobby
   import: common
