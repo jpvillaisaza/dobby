@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+nums=$(jot 43 1 43 | sort -R | head -5 | sort -n | paste -s -)
+
+printf "%s\t-\t%s\n" "$nums" "$(jot -r 1 1 16)"

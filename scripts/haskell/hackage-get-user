@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+curl -X 'GET' "https://hackage.haskell.org/user/$1" \
+  -H 'Accept: application/json'
